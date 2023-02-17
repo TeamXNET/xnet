@@ -70,3 +70,27 @@ html {
 .hero button:hover {
   background-color: #391170;
 }
+
+.curved-bg {
+  position: absolute;
+  z-index: -1;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 2rem;
+}
+
+.section-image {
+  width: 50%;
+}
+
+.section-image img {
+  width: 100%;
+}
+
+.section-content {
+  width: 50%;
+}

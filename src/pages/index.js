@@ -32,8 +32,17 @@ export default function Home() {
           <img className="hero-bg" src="/xnet-bubble.png">
 
           </img>
-          <h1>Welcome to our decentralized streaming platform, built on the XRP Ledger</h1>
+          <h1>Welcome to our streaming platform, built on the XRP Ledger</h1>
           <button>Enter the XNET Dex</button>
+        </div>
+      </div>
+      <div className="section">
+        <img className="curved-bg" src="/curved-bg.png"></img>
+        <div className="section-image">
+          <img src="/xnet-streaming.png"></img>
+        </div>
+        <div className="section-content">
+          <img src="/xnet-logo.png"></img>
         </div>
       </div>
     </>

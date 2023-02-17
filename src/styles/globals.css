@@ -8,6 +8,8 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 100vw;
+  min-width: 100vw;
 }
 
 .navbar {
@@ -74,6 +76,7 @@ html {
 .curved-bg {
   position: absolute;
   z-index: -1;
+  max-width: 100vw;
 }
 
 .section {
@@ -84,13 +87,57 @@ html {
 }
 
 .section-image {
-  width: 50%;
+  width: 49%;
 }
 
 .section-image img {
-  width: 100%;
+  width: 500px;
 }
 
 .section-content {
-  width: 50%;
+  width: 25%;
+  color: white;
+  margin-left: 8rem;
+}
+
+.section-content h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.section-content p {
+  font-size: 0.9rem;
+}
+
+.creators {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.creators .info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+
+.creators .info h1 {
+  font-size: 3rem;
+}
+
+.creators .info p {
+  width: 600px;
+}
+
+.creators .info h3 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.creators img {
+  width: 1000px;
 }

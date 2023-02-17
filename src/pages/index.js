@@ -49,6 +49,14 @@ export default function Home() {
           <p>Join the XSPUNK community as an NFT member and enjoy exclusive access to a range of benefits. With NFT membership, you'll be able to enter content creator streams without the subscription fee.</p>
         </div>
       </div>
+      <div className="creators">
+        <div className="info">
+          <h1>Creators</h1>
+          <p>Join XNET and tap into a massive audience, including the dedicated XSPUNK NFT community. As a content creator, you'll have the opportunity to connect with fans, build your following, and earn instant payments. </p>
+          <h3>How it works</h3>
+        </div>
+        <img src="/how-it-works.png"></img>
+      </div>
     </>
   )
 }

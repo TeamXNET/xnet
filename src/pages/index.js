@@ -33,7 +33,7 @@ export default function Home() {
 
           </img>
           <h1>Welcome to our streaming platform, built on the XRP Ledger</h1>
-          <button>Enter the XNET Dex</button>
+          <button>Enter XNet</button>
         </div>
       </div>
       <div className="section">
@@ -43,6 +43,10 @@ export default function Home() {
         </div>
         <div className="section-content">
           <img src="/xnet-logo.png"></img>
+          <h2>Decentralized payments for Adult Content</h2>
+          <p>Through uisng the XRPL, our platform ensures that all transactions are tamper-proof, transparent and secure. Join us in shaping the future of streaming on the XRPL and take back control of your content.</p>
+          <h2>XSPUNK NFT Membership</h2>
+          <p>Join the XSPUNK community as an NFT member and enjoy exclusive access to a range of benefits. With NFT membership, you'll be able to enter content creator streams without the subscription fee.</p>
         </div>
       </div>
     </>

@@ -32,7 +32,7 @@ export default function Home() {
           <img className="hero-bg" src="/xnet-bubble.png">
 
           </img>
-          <h1>Welcome to our streaming platform, built on the XRP Ledger</h1>
+          <h1>Welcome to our streaming <br/>platform, built on the XRP Ledger</h1>
           <button>Enter XNet</button>
         </div>
       </div>
@@ -56,6 +56,18 @@ export default function Home() {
           <h3>How it works</h3>
         </div>
         <img src="/how-it-works.png"></img>
+      </div>
+      <div className="callout">
+        <p>To find out more contact us or click below</p>
+        <button>Enter</button>
+      </div>
+      <div className="nfts">
+        <div className="info">
+          <h1>XSPUNK NFT</h1>
+          <p>Unlock exclusive access to creator streams with no subscription fees by owning XSPUNK NFTs. Our unique NFTs offer a one-of-a-kind utility, linking ownership to a connected wallet address. Join a thriving community of NSFW NFT enthusiasts and web3 pioneers driven by a shared passion for exceptional content.</p>
+          <h3>How it works</h3>
+        </div>
+        <img src="/xspunk-nfts.png"></img>
       </div>
     </>
   )

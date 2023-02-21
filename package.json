@@ -10,11 +10,14 @@
   },
   "dependencies": {
     "@next/font": "13.1.6",
+    "@react-spring/parallax": "^9.6.1",
+    "@react-spring/web": "^9.6.1",
     "eslint": "8.34.0",
     "eslint-config-next": "13.1.6",
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-modal": "^3.16.1"
+    "react-modal": "^3.16.1",
+    "react-visibility-sensor": "^5.1.1"
   }
 }

@@ -66,10 +66,10 @@ export default function Home() {
   });
 
   return (
-    <Parallax pages={5}> 
+    <Parallax pages={4.25}> 
     <>
     
-      <div className="main"> 
+      <div className="main" offset={0} speed={2.5}>
         <div
           
           className="navbar"
@@ -101,8 +101,7 @@ export default function Home() {
             </ul>
           </animated.div>
         </div>
-        <ParallaxLayer offset={0} speed={2.5}>
-        <div className="hero">
+        <ParallaxLayer className="hero" offset={0} speed={2.5}>
           
           <animated.div style={{
               position: 'absolute',
@@ -130,14 +129,14 @@ export default function Home() {
             <div className="modal-popup">I am a modal</div>
             <button onClick={closeModal}>close</button>
           </Modal>
-        </div>
         </ParallaxLayer>
       </div>
-      
-      
-      <div className="section">
-      <ParallaxLayer offset={1} speed={2.5}>
-        <img className="curved-bg" src="/curved-bg.png"></img>
+         
+      <div className="section"  speed={2.5}>
+        <ParallaxLayer style={{ zIndex: '-100' }} offset={1} speed={2.5}>
+          <img className="curved-bg" src="/curved-bg.png"></img>
+        </ParallaxLayer>
+        
         <div className="section-image">
           <img src="/xnet-streaming.png"></img>
         </div>
@@ -151,34 +150,27 @@ export default function Home() {
         <h2>XSPUNK NFT Membership</h2>
         <p>Join the XSPUNK community as an NFT member and enjoy exclusive access to a range of benefits. With NFT membership, you'll be able to enter content creator streams without the subscription fee.</p>
       </div>
-      </ParallaxLayer>
       </div>
       
-     
-      <div className="creators">
-      <ParallaxLayer offset={2} speed={2.5}>
+      <div className="creators" offset={1.1} speed={2.5}>
         <div className="info">
           <h1>Creators</h1>
           <p>Join XNET and tap into a massive audience, including the dedicated XSPUNK NFT community. As a content creator, you'll have the opportunity to connect with fans, build your following, and earn instant payments. </p>
           <h3>How it works</h3>
         </div>
         <img src="/how-it-works.png"></img>
-        </ParallaxLayer>
-      </div>
+      </div>  
       
-      
-      <div className="callout">
-      <ParallaxLayer offset={3} speed={2.5}>
+      <div className="callout" offset={4} speed={2.5}>
         <p>To find out more contact us or click below</p>
         <button>Enter</button>
-        </ParallaxLayer>
-      </div>
+      </div> 
       
-      
-      <div className="nfts">
-      <ParallaxLayer offset={4} speed={2.5}>
-        <img className="blob-bg-1" src="/blob-bg-1.png"/>
+      <div className="nfts" offset={5} speed={2.5}>
+          <img className="blob-bg-1" src="/blob-bg-1.png"/>
+        <ParallaxLayer style={{ zIndex: '-100' }}offset={3} speed={1.5}>
         <img className="blob-bg-2" src="/blob-bg-2.png"/>
+        </ParallaxLayer>
         <div className="info">
           <h1>XSPUNK NFT</h1>
           <p>Unlock exclusive access to creator streams with no subscription fees by owning XSPUNK NFTs. Our unique NFTs offer a one-of-a-kind utility, linking ownership to a connected wallet address. Join a thriving community of NSFW NFT enthusiasts and web3 pioneers driven by a shared passion for exceptional content.</p>
@@ -204,12 +196,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        </ParallaxLayer>
       </div>
       
-      
-      <div className="footer">
-      <ParallaxLayer offset={5} speed={2.5}>
+      <div className="footer" offset={6} speed={2.5}>
         <a href="/">
           <img src="/twitter.png"></img>
         </a>
@@ -222,7 +211,6 @@ export default function Home() {
         <a href="/">
           <img src="/email.png"></img>
         </a>
-        </ParallaxLayer>
       </div>
       
    

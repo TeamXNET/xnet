@@ -62,8 +62,8 @@ html, body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 2rem 4rem;
   z-index: 100;
+  margin: 0rem 4rem;
 }
 
 .hero h1 {
@@ -111,7 +111,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem 2rem;
+  width: 100vw;
 }
 
 .section-image {
@@ -188,6 +188,9 @@ html, body {
   margin-left: 0;
   margin-top: 5rem;
   margin-bottom: 5rem;
+  background: linear-gradient(-45deg, #591CAB20, #1287B520);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
 }
 
 .callout p {
@@ -353,4 +356,16 @@ html, body {
   transform: translateY(800px);
   overflow: hidden;
   width: 500px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }

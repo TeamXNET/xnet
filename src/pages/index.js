@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from "next/link"
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import React,{useEffect} from "react";
@@ -80,23 +81,23 @@ export default function Home() {
             }} 
             className="logo"
           >
-            <img src="/xnet-logo.png" alt="" />
+            <Image src="/xnet-logo.png" alt="" />
           </animated.div>
           <animated.div style={{
               ...rightsprings,
             }} className="links">
             <ul>
               <li>
-                <a href="/">About</a>
+                <Link href="/">About</Link>
               </li>
               <li>
-                <a href="/">Creators</a>
+                <Link href="/">Creators</Link>
               </li>
               <li>
-                <a href="/">XSPUNK NFT</a>
+                <Link href="/">XSPUNK NFT</Link>
               </li>
               <li>
-                <a href="/">Whitepaper</a>
+                <Link href="/">Whitepaper</Link>
               </li>
             </ul>
           </animated.div>
@@ -109,14 +110,14 @@ export default function Home() {
               ...upsprings,
               
             }}>
-            <img className="hero-bg" src="/xnet-bubble.png"/>
+            <Image alt="" className="hero-bg" src="/xnet-bubble.png"/>
           </animated.div>
           
           <animated.div>
           <animated.h1 style={{
               ...leftmoresprings,
             }}>Welcome to our streaming <br/>platform, built on the XRP Ledger</animated.h1>
-          <button onClick={openModal}>Enter <img src="/xnet-logo-white.png"/></button>
+          <button onClick={openModal}>Enter <Image alt="" src="/xnet-logo-white.png"/></button>
           </animated.div>
          
           <Modal
@@ -134,31 +135,31 @@ export default function Home() {
          
       <div className="section"  speed={2.5}>
         <ParallaxLayer style={{ zIndex: '-100' }} offset={1} speed={2.5}>
-          <img className="curved-bg" src="/curved-bg.png"></img>
+          <Image alt="" className="curved-bg" src="/curved-bg.png"></Image>
         </ParallaxLayer>
         
         <div className="section-image">
-          <img src="/xnet-streaming.png"></img>
+          <Image alt="" src="/xnet-streaming.png"></Image>
         </div>
 
         <div className="section-content">
-        <img src="/xnet-logo.png"></img>
+        <Image alt="" src="/xnet-logo.png"></Image>
         <animated.h2 style={{
             ...rightsprings,
           }}>Decentralized payments for Adult Content</animated.h2>
         <p>Through uisng the XRPL, our platform ensures that all transactions are tamper-proof, transparent and secure. Join us in shaping the future of streaming on the XRPL and take back control of your content.</p>
         <h2>XSPUNK NFT Membership</h2>
-        <p>Join the XSPUNK community as an NFT member and enjoy exclusive access to a range of benefits. With NFT membership, you'll be able to enter content creator streams without the subscription fee.</p>
+        <p>Join the XSPUNK community as an NFT member and enjoy exclusive access to a range of benefits. With NFT membership, youll be able to enter content creator streams without the subscription fee.</p>
       </div>
       </div>
       
       <div className="creators" offset={1.1} speed={2.5}>
         <div className="info">
           <h1>Creators</h1>
-          <p>Join XNET and tap into a massive audience, including the dedicated XSPUNK NFT community. As a content creator, you'll have the opportunity to connect with fans, build your following, and earn instant payments. </p>
+          <p>Join XNET and tap into a massive audience, including the dedicated XSPUNK NFT community. As a content creator, youll have the opportunity to connect with fans, build your following, and earn instant payments. </p>
           <h3>How it works</h3>
         </div>
-        <img src="/how-it-works.png"></img>
+        <Image alt="" src="/how-it-works.png"></Image>
       </div>  
       
       <div className="callout" offset={4} speed={2.5}>
@@ -167,27 +168,27 @@ export default function Home() {
       </div> 
       
       <div className="nfts" offset={5} speed={2.5}>
-          <img className="blob-bg-1" src="/blob-bg-1.png"/>
+          <Image alt="" className="blob-bg-1" src="/blob-bg-1.png"/>
         <ParallaxLayer style={{ zIndex: '-100' }}offset={3} speed={1.5}>
-        <img className="blob-bg-2" src="/blob-bg-2.png"/>
+        <Image alt="" className="blob-bg-2" src="/blob-bg-2.png"/>
         </ParallaxLayer>
         <div className="info">
           <h1>XSPUNK NFT</h1>
           <p>Unlock exclusive access to creator streams with no subscription fees by owning XSPUNK NFTs. Our unique NFTs offer a one-of-a-kind utility, linking ownership to a connected wallet address. Join a thriving community of NSFW NFT enthusiasts and web3 pioneers driven by a shared passion for exceptional content.</p>
           <h3>How it works</h3>
         </div>
-        <img src="/xspunk-nfts.png"></img>
+        <Image alt="" src="/xspunk-nfts.png"></Image>
         <div className="gallery">
-          <img src="/nft-1.png"/>
-          <img src="/nft-2.png"/>
-          <img src="/nft-3.png"/>
-          <img src="/nft-4.png"/>
+          <Image alt="" src="/nft-1.png"/>
+          <Image alt="" src="/nft-2.png"/>
+          <Image alt="" src="/nft-3.png"/>
+          <Image alt="" src="/nft-4.png"/>
         </div>
         <div className="external">
-          <p>Like what you see? View our NFT's below</p>
+          <p>Like what you see? View our NFTs below</p>
           <div className="external-wrapper">
             <div className="external-adult">
-              <img src="/lolipop-mouth.png"></img>
+              <Image alt="" src="/lolipop-mouth.png"></Image>
               <p>Remember to enable<br/>explicit content</p>
             </div>
             <div className="external-buttons">
@@ -199,18 +200,18 @@ export default function Home() {
       </div>
       
       <div className="footer" offset={6} speed={2.5}>
-        <a href="/">
-          <img src="/twitter.png"></img>
-        </a>
-        <a href="/">
-          <img src="/telegram.png"></img>
-        </a>
-        <a href="/">
-          <img src="/instagram.png"></img>
-        </a>
-        <a href="/">
-          <img src="/email.png"></img>
-        </a>
+        <Link href="/">
+          <Image alt="" src="/twitter.png"></Image>
+        </Link>
+        <Link href="/">
+          <Image alt="" src="/telegram.png"></Image>
+        </Link>
+        <Link href="/">
+          <Image alt="" src="/instagram.png"></Image>
+        </Link>
+        <Link href="/">
+          <Image alt="" src="/email.png"></Image>
+        </Link >
       </div>
       
    

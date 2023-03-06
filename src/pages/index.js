@@ -81,7 +81,7 @@ export default function Home() {
             }} 
             className="logo"
           >
-            <Image src="/xnet-logo.png" width="100" height="0" alt="" />
+            <Image src="/xnet-logo.png" width="188" height="78" alt="" />
           </animated.div>
           <animated.div style={{
               ...rightsprings,
@@ -110,14 +110,14 @@ export default function Home() {
               ...upsprings,
               
             }}>
-            <Image width="0" height="0" alt="" className="hero-bg" src="/xnet-bubble.png"/>
+            <Image width="1204" height="1227" alt="" className="hero-bg" src="/xnet-bubble.png"/>
           </animated.div>
           
           <animated.div>
           <animated.h1 style={{
               ...leftmoresprings,
             }}>Welcome to our streaming <br/>platform, built on the XRP Ledger</animated.h1>
-          <button onClick={openModal}>Enter <Image width="0" height="0" alt="" src="/xnet-logo-white.png"/></button>
+          <button onClick={openModal}>Enter <Image width="96" height="40" alt="" src="/xnet-logo-white.png"/></button>
           </animated.div>
          
           <Modal
@@ -135,15 +135,15 @@ export default function Home() {
          
       <div className="section"  speed={2.5}>
         <ParallaxLayer style={{ zIndex: '-100' }} offset={1} speed={2.5}>
-          <Image width="0" height="0" alt="" className="curved-bg" src="/curved-bg.png"></Image>
+          <Image width="1923" height="1202" alt="" className="curved-bg" src="/curved-bg.png"></Image>
         </ParallaxLayer>
         
         <div className="section-image">
-          <Image width="0" height="0" alt="" src="/xnet-streaming.png"></Image>
+          <Image width="731" height="500" alt="" src="/xnet-streaming.png"></Image>
         </div>
 
         <div className="section-content">
-        <Image width="0" height="0" alt="" src="/xnet-logo.png" width="0"></Image>
+        <Image width="188" height="78" alt="" src="/xnet-logo.png"></Image>
         <animated.h2 style={{
             ...rightsprings,
           }}>Decentralized payments for Adult Content</animated.h2>
@@ -159,7 +159,7 @@ export default function Home() {
           <p>Join XNET and tap into a massive audience, including the dedicated XSPUNK NFT community. As a content creator, youll have the opportunity to connect with fans, build your following, and earn instant payments. </p>
           <h3>How it works</h3>
         </div>
-        <Image width="0" height="0" alt="" src="/how-it-works.png"></Image>
+        <Image width="1427" height="280" alt="" src="/how-it-works.png"></Image>
       </div>  
       
       <div className="callout" offset={4} speed={2.5}>

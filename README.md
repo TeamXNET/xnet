@@ -1,9 +1,7 @@
-<<<<<<< HEAD
-# [bitwave.tv]
 
-![bitwave.tv banner image](/static/images/bitwave-banner.jpg)
+# [xnet.stream]
 
-[[bitwave.tv]](https://bitwave.tv) - *an open platform live streaming service for creators to freely express themselves.*
+*an open platform live streaming service for creators to freely express themselves.*
 
 ## Dev Setup
 
@@ -33,9 +31,6 @@ $ npm start
 
 ---
 
-[![jetbrains logo](/static/images/jetbrains-128.png)](https://www.jetbrains.com/?from=bitwave)
-
-<<<<<<< HEAD
 For additional explanation on how things work, checkout: 
 - [Vue.js](https://vuejs.org/v2/guide/)
 - [Nuxt.js](https://nuxtjs.org)
@@ -60,4 +55,3 @@ On the `Channel / Users Page`, the user's video content, as well as the user's s
 * Centos / Linux
 * Digital Ocean
 * Heroku
->>>>>>> 55d54ebd08a97f33fbc8b378078cd1467ac1f95d

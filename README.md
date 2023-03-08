@@ -1,38 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![banner](https://user-images.githubusercontent.com/20288304/65359910-ca86bc00-dbb2-11e9-9c09-95218bf37f6b.png)
 
-## Getting Started
+#  `twitch.tv` Clone
 
-First, run the development server:
+My attempt at a clone of a twitch.tv, a livestreaming website for a variety of content, ranging from video games to performance arts like dancing, or simply chatting. The important aspect of the website is that users are able to broadcast live to other users the website, and users are able to follow their favorite streamers.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+[Live Link](https://twitch-copy.herokuapp.com)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Table of content
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+How to install:
 
-To learn more about Next.js, take a look at the following resources:
+- In the repository, run the command 'rails s' to start the rails server and begin serving the SPA entry file.
+- Run the command 'npm start', in order to start building the React Frontend files.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![Main](https://user-images.githubusercontent.com/20288304/67603805-c3614980-f72e-11e9-9b25-fe30d9c2ba1a.png)
 
-## Deploy on Vercel
+On the `Index / Landing Page`, there is a list of users displayed in the main view. On the left side, there is a list of channels that the current user is following, and at the top, are a couple of Nav-Links to visit the Index / Categories and a video on how to stream.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Categories](https://user-images.githubusercontent.com/20288304/67604079-7b8ef200-f72f-11e9-9305-f540eea4df83.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+On the `Directory / Categories Page`, there is a list of categories displayed, with the picture associated with each category displayed, and a randomly generated viewership number. The `Browse` at in the top bar also becomes highlighted and underlined, based on the route.
+
+![Channel](https://user-images.githubusercontent.com/20288304/67604141-aaa56380-f72f-11e9-8647-362803a05d89.png)
+
+On the `Channel / Users Page`, the user's video content, as well as the user's stream title, category, and some dummy tags displayed. The video being shown, is a streaming video from AWS / S3 Bucket, unless the user is streaming a live video, then the live stream will be displayed instead of a placeholder video.
+
+
+## Technologies
+
+* React.js
+* Redux
+* Ruby on Rails
+* AWS / S3 
+* Centos / Linux
+* Digital Ocean
+* Heroku

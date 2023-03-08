@@ -1,0 +1,35 @@
+.followHover {
+  border-bottom: solid 4px rgb(100, 65, 164, 0.0);
+  transition: border-bottom .2s;
+}
+.followHover:hover {
+  border-bottom: solid 4px rgb(100, 65, 164, 0.5);
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+#followButton {
+  background-color: #6441a4
+}
+
+#followButton:hover {
+  background-color: #7d5bbe
+}
+
+#followButtonSmall {
+  background-color: #322f37;
+}
+
+#followButtonSmall:hover {
+  background-color: #bd0f0f;
+}
+
+#followSvg {
+  filter: invert(100%);
+}
+
+#svgProfileChannel {
+  filter: invert(100%);
+  margin-top: 7px;
+  margin-left: 3px;
+}

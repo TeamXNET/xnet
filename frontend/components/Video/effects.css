@@ -1,0 +1,9 @@
+#svgEye {
+  filter: invert(100%);
+  /* top: 1px; */
+  margin-top: -1px;
+}
+
+.hoverButton:hover {
+  cursor: pointer;
+}

@@ -31,7 +31,7 @@ For additional explanation on how things work, checkout:
 - [Nuxt.js](https://nuxtjs.org)
 - [Video.js](https://docs.videojs.com/)
 - [Vuetify](https://vuetifyjs.com/)
-=======
+
 ## Usage
 
 On the `Index / Landing Page`, there is a list of users displayed in the main view. On the left side, there is a list of channels that the current user is following, and at the top, are a couple of Nav-Links to visit the Index / Categories and a video on how to stream.

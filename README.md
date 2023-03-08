@@ -8,11 +8,6 @@
 ``` bash
 # install dependencies
 $ npm ci
-=======
-#  `xnet.stream`
-
-XNet, a livestreaming website for a variety of content, ranging from video games to performance arts like dancing, or simply chatting. The important aspect of the website is that users are able to broadcast live to other users the website, and users are able to follow their favorite streamers.
->>>>>>> 55d54ebd08a97f33fbc8b378078cd1467ac1f95d
 
 # serve with hot reload at localhost:3000
 $ npm run dev

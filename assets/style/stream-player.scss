@@ -1,0 +1,253 @@
+$accent-color: #13a9fe;
+
+.video-js {
+  font-size: 12px;
+  overflow: hidden;
+
+  // Control Bar (container)
+  .vjs-control-bar {
+    background: none;
+
+    &::before {
+      position: absolute;
+      bottom: 0;
+      content: '';
+      height: 5rem;
+      width: 100%;
+      background: rgba(20, 20, 20, 0.45);
+      background: linear-gradient(0deg, rgba(0,0,0,.85) 10%, rgba(0,0,0,0) 100%);
+    }
+  }
+
+  // Progress Bar
+  .vjs-progress-control.vjs-control {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 1rem;
+    bottom: 90%;
+
+    // Circle play head
+    .vjs-play-progress::before {
+      transform: scale(0);
+      transition: transform .3s;
+    }
+
+    &:hover {
+      .vjs-play-progress::before {
+        transform: scale(1);
+      }
+    }
+
+    // Progress Slider
+    .vjs-slider {
+      margin: 0 1rem;
+    }
+  }
+
+  // Load progress color
+  .vjs-load-progress,
+  .vjs-load-progress div {
+    background-color: rgba(160, 160, 160, 0.5);
+  }
+
+  // Progress Bar Background
+  .vjs-slider {
+    background-color: rgba(60, 60, 60, 0.5);
+  }
+
+  // Primary Color Progress
+  .vjs-slider-bar {
+    background-color: $accent-color;
+  }
+
+  // Inner Progress Bar
+  .vjs-play-progress {
+    background-color: $accent-color;
+    color: $accent-color;
+  }
+
+  // Spacer
+  .vjs-custom-control-spacer {
+    display: flex;
+    flex: auto;
+  }
+
+  // Transcoding menu
+  /*.vjs-tech {
+    height: auto !important;
+    position: absolute !important;
+  }*/
+
+  // Menu size
+  .vjs-playback-rate .vjs-menu .vjs-menu-content {
+    width: 125%;
+    font-size: 10px;
+  }
+
+  // Volume slider
+  .vjs-volume-panel {
+    &.vjs-control {
+      transition: .2s;
+    }
+
+    .vjs-volume-control.vjs-volume-horizontal {
+      transition: .2s;
+    }
+  }
+
+  // Poster Improvements
+  .vjs-poster {
+    background-position: 50% 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 1;
+    transition: opacity .5s ease;
+  }
+
+  &.vjs-has-started .vjs-poster {
+    opacity: 0;
+  }
+}
+
+
+// Tooltip
+.vjs-mouse-display .vjs-time-tooltip {
+  color: $accent-color;
+}
+
+// Tooltip
+.video-js {
+  .vjs-progress-control{
+    .vjs-play-progress {
+      .vjs-time-tooltip {
+        display: none;
+      }
+    }
+  }
+}
+
+
+// Transitions control bar between active / inactive
+.vjs-has-started {
+  .vjs-control-bar {
+    opacity: 1;
+    transition: .1s;
+  }
+
+  &.vjs-user-inactive.vjs-playing {
+    .vjs-control-bar {
+      opacity: 0;
+      transition: .3s;
+    }
+  }
+
+  &.vjs-user-active.vjs-playing {
+    .vjs-control-bar {
+
+    }
+  }
+}
+
+
+// Button glow
+.video-js {
+  .vjs-control {
+    &:focus:before,
+    &:hover:before,
+    &:focus {
+      // Disable builtin button glow
+      text-shadow: none;
+    }
+  }
+}
+
+
+a {
+  color: $accent-color;
+  text-decoration: none;
+}
+
+#description {
+  text-overflow: ellipsis;
+  word-break: break-word;
+  max-width: 100%;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.bottom-gradient {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, transparent 72px);
+}
+
+.blink{
+  text-decoration: blink;
+  -webkit-animation-name: blinker;
+  -webkit-animation-duration: 0.6s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:ease-in-out;
+  -webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes blinker {
+  from {opacity: 1.0;}
+  to {opacity: 0.0;}
+}
+
+
+// Odysee Skin
+$odysee-accent-color: #fa6165;
+
+.odysee-skin {
+
+  a {
+    color: $odysee-accent-color;
+  }
+
+  // Odysee vjs player skin
+  .video-js.vjs-odysee {
+
+    // Odysee vjs play button
+    .vjs-big-play-button {
+      background-color: #fa6165 !important;
+      border: none !important;
+      border-radius: 50% !important;
+      width: 5rem !important;
+      height: 5rem !important;
+      background-position: calc(50% + 0.1rem) center !important;
+      background-size: 2.5rem !important;
+      background-repeat: no-repeat !important;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E %3Cg stroke='white' stroke-width='2' fill='white' fill-rule='evenodd' stroke-linejoin='round'%3E %3Cpolygon points='5 21 5 3 21 12'/%3E %3C/g%3E %3C/svg%3E") !important;
+
+      & .vjs-icon-placeholder::before {
+        content: none !important;
+      }
+    }
+
+    // Primary Color Progress
+    .vjs-slider-bar {
+      background-color: $odysee-accent-color;
+    }
+
+    // Inner Progress Bar
+    .vjs-play-progress {
+      background-color: $odysee-accent-color;
+      color: $odysee-accent-color;
+    }
+  }
+
+  // Tooltip
+  .vjs-mouse-display .vjs-time-tooltip {
+    color: $odysee-accent-color;
+  }
+}

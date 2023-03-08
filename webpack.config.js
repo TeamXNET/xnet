@@ -1,35 +1,31 @@
-const path = require('path');
+const resolve = require('path').resolve; // eslint-disable-line
 
+// Minimal Webpack config to supply to Eslint.
+// This is not actually used by Nuxt but instead mirrors
+// the resolve and loader rules.
 module.exports = {
-  context: __dirname,
-  entry: './frontend/entry.jsx',
-  output: {
-    path: path.resolve(__dirname, 'app', 'assets', 'javascripts'),
-    filename: 'bundle.js'
-  },
-  resolve: {
-    extensions: ['.js', '.jsx', '*']
-  },
-  module: {
-    rules: [
-      {
-        test: /\.jsx?$/,
-        exclude: /(node_modules)/,
-        use: {
-          loader: 'babel-loader',
-          query: {
-            presets: ['@babel/env', '@babel/react']
-          }
-        },
-      },
-      {
-        test: /\.css$/,
-        use: [
-          'style-loader',
-          'css-loader'
-        ],
-      }
-    ]
-  },
-  devtool: 'source-map'
+    resolve: {
+        // modules: [resolve(__dirname, 'lib'), 'node_modules'],
+        extensions: ['.js', '.vue'],
+        alias: {
+            '~': resolve(__dirname, './'),
+            '@': resolve(__dirname, './')
+            // your aliases go here.
+        }
+    },
+
+    /*module: {
+        rules: [
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                loader: 'babel-loader'
+            },
+            {
+                test: /\.vue$/,
+                exclude: /node_modules/,
+                loader: 'vue-loader'
+            }
+        ]
+    }*/
 };

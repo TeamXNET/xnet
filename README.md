@@ -1,6 +1,8 @@
-# 🍜 Noodles - Streaming app
+
+# XNet - Streaming app
 
 ## Streamer
+=======
 
 - creates a new stream using livepeer
 - optionally can upload an NFT 
@@ -13,6 +15,9 @@
 - donate to the streamer using Superfluid sdk (works only on Kovan) - 5$ per month. 
 - Viewer NFT generated without gas minting done via NFTPort and published to Polygon
 - generative NFTs are everytime generated using NFT image uploaded from ipfs, address of streamer and viewer (avatar is added if ENS is set) 
+
+=======
+## Getting Started
 
 
 # Deployments

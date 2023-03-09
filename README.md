@@ -1,8 +1,6 @@
-  ### IF YOU LIKE IT, GIVE ME A STAR
-
 <hr>
 
-# live-stream-app
+# XNet
 Live streaming application that uses React, Redux, MongoDB, NodeJS, ExpressJS, JWT Authentication, Socket.io, webRTC and many more.
 
 
@@ -48,7 +46,7 @@ Live streaming application that uses React, Redux, MongoDB, NodeJS, ExpressJS, J
 #### Install Dependencies
 
 ```
-cd live-stream-app
+cd xnet
 npm i
 
 cd frontend

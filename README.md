@@ -1,98 +1,51 @@
-<<<<<<< HEAD
-# STREAMX
+![header-image](./public/web3swim-banner-image.png)
 
-Streamx is a Web3 Based Streaming Project . We have Tried To Convert Web2 Twitch to Web3 Streamx Streaming Website.
-## Installation
+# Web3Swim
 
+### Tools Utilized:
+* **Front-End:** NEXTjs with TypeScript
+* **Back-End:** Solidity (Smart Contracts) + Moralis (Database) + Thirdweb (Middleware)
+* **Blockchain:** Polygon (ERC20 Coin Contract + ERC721 NFT Contract)
+* **Video Streaming:** Livepeer (Decentralized Streaming)
+* **Storage:** IPFS & Filebase (NFTs)
+
+## Watch Our Video
+![web3swim video](https://i.vimeocdn.com/video/1388936696-bcbee6764c4e5c270c6bf47e795059be30d9a32782907f50233f739c9b6a54ab-d?mw=1100&mh=464)
+[View the video on Vimeo](https://vimeo.com/685326701/807ea6509e)
+
+## OpenSea Collection
+### ![OpenSeaCollection](https://lh3.googleusercontent.com/55ltjtMGyMCQp90LjJHO2QPDhkhaEmTt2ABssovHO7TJMF5re9nbXhUW_UHxIFg2beS3Ex5xQLXNXk1vRBAJbEWYMehIfmh6KOntYA=s130)
+[View on OpenSea (Polygon x IPFS x Filebase)](https://testnets.opensea.io/collection/web3swim-nft)
+
+## Getting Started
+
+First, run the development server:
 
 ```bash
-npm install
 npm run dev
-```
-### ENV Variables
-
-```
-export MNEMONIC = 
-export LIVE_PEER=
-export CONTRACT=
-export NFT_STORAGE_TOKEN=
-```
-## Resources
-```
-Livepeer API FOR LIVE STREAM AND IPFS
-NFT.Storage API FOR IPFS
-Truffle - Smart Contract
-NextJS
+# or
+yarn dev
 ```
 
-### Smart contract Address
-```
-Contract Address deployed on Aurora = 0x28B1E1C8B4Eb9a69487557b137c0dB368a8A2eF6
-```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-## License
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-[MIT](https://choosealicense.com/licenses/mit/)
-=======
-<hr>
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-# XNet
-Live streaming application that uses React, Redux, MongoDB, NodeJS, ExpressJS, JWT Authentication, Socket.io, webRTC and many more.
+## Learn More
 
+To learn more about Next.js, take a look at the following resources:
 
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
+## Deploy on Vercel
 
-  
-  [![github-follow](https://img.shields.io/github/followers/TeamXNET?label=Follow&logoColor=purple&style=social)](https://github.com/TeamXNET)
-  [![license](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
-  
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-
-  ## Prerequisites
-
-    * Node installed (>= v12.16.1)
-    * npm installed (>= 6.14.7)
-    * (optional) MongoDB server version (>=3.6.8)
-  ## Table of Content
-  * [ Technologies ](#Technologies)
-  * [ Installation ](#Installation)
-  * [ Author Contact ](#Author-Contact)
-  * [ License ](#License)
-  #
-
-  ## Technologies 
-  
-- [Node](https://nodejs.org/en/)
-
-- [Typescript](https://www.typescriptlang.org/)
-
-- [Express](https://expressjs.com/)
-
-- [Mongoose](https://mongoosejs.com/)
-
-- [React](https://reactjs.org/)
-
-- [Redux](https://redux.js.org/)
-<br>
-  
-  ## Installation
-
-
-#### Install Dependencies
-
-```
-cd xnet
-npm i
-
-cd frontend
-npm i
-```
-
-```
-npm run start
-
-cd frontend npm run start
-```
->>>>>>> 8fea32e163dd25e4b88a86bd863279e2bbeb1174
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

@@ -1,0 +1,178 @@
+[
+  {
+    "name": "admin",
+    "path": "/admin",
+    "component": "/Users/joe/xnet/pages/admin.vue",
+    "chunkName": "pages/admin",
+    "_name": "_bb575f3e"
+  },
+  {
+    "path": "/chat",
+    "component": "/Users/joe/xnet/pages/chat.vue",
+    "chunkName": "pages/chat",
+    "children": [
+      {
+        "name": "chat",
+        "path": "",
+        "component": "/Users/joe/xnet/pages/chat/index.vue",
+        "chunkName": "pages/chat/index",
+        "_name": "_9687028e"
+      },
+      {
+        "name": "chat-room",
+        "path": ":room",
+        "component": "/Users/joe/xnet/pages/chat/_room.vue",
+        "chunkName": "pages/chat/_room",
+        "_name": "_402248be"
+      }
+    ],
+    "_name": "_3183d8b6"
+  },
+  {
+    "name": "dashboard",
+    "path": "/dashboard",
+    "component": "/Users/joe/xnet/pages/dashboard.vue",
+    "chunkName": "pages/dashboard",
+    "_name": "_13888026"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/Users/joe/xnet/pages/login.vue",
+    "chunkName": "pages/login",
+    "_name": "_3a8c9f7b"
+  },
+  {
+    "name": "privacy",
+    "path": "/privacy",
+    "component": "/Users/joe/xnet/pages/privacy.vue",
+    "chunkName": "pages/privacy",
+    "_name": "_1414159a"
+  },
+  {
+    "name": "profile",
+    "path": "/profile",
+    "component": "/Users/joe/xnet/pages/profile.vue",
+    "chunkName": "pages/profile",
+    "_name": "_75e0f98a"
+  },
+  {
+    "name": "protected",
+    "path": "/protected",
+    "component": "/Users/joe/xnet/pages/protected.vue",
+    "chunkName": "pages/protected",
+    "_name": "_cd043780"
+  },
+  {
+    "name": "replays",
+    "path": "/replays",
+    "component": "/Users/joe/xnet/pages/replays.vue",
+    "chunkName": "pages/replays",
+    "_name": "_0b27d504"
+  },
+  {
+    "name": "report",
+    "path": "/report",
+    "component": "/Users/joe/xnet/pages/report.vue",
+    "chunkName": "pages/report",
+    "_name": "_161e99dc"
+  },
+  {
+    "name": "signout",
+    "path": "/signout",
+    "component": "/Users/joe/xnet/pages/signout.vue",
+    "chunkName": "pages/signout",
+    "_name": "_50ba1bfa"
+  },
+  {
+    "name": "store",
+    "path": "/store",
+    "component": "/Users/joe/xnet/pages/store/index.vue",
+    "chunkName": "pages/store/index",
+    "_name": "_0b341d94"
+  },
+  {
+    "name": "streamers",
+    "path": "/streamers",
+    "component": "/Users/joe/xnet/pages/streamers.vue",
+    "chunkName": "pages/streamers",
+    "_name": "_c3ecb310"
+  },
+  {
+    "name": "streamkey",
+    "path": "/streamkey",
+    "component": "/Users/joe/xnet/pages/streamkey.vue",
+    "chunkName": "pages/streamkey",
+    "_name": "_74d6d21e"
+  },
+  {
+    "name": "tos",
+    "path": "/tos",
+    "component": "/Users/joe/xnet/pages/tos.vue",
+    "chunkName": "pages/tos",
+    "_name": "_68fbcf2c"
+  },
+  {
+    "name": "wavecoin-acceptable-use-policy",
+    "path": "/wavecoin-acceptable-use-policy",
+    "component": "/Users/joe/xnet/pages/wavecoin-acceptable-use-policy.vue",
+    "chunkName": "pages/wavecoin-acceptable-use-policy",
+    "_name": "_8a15d444"
+  },
+  {
+    "name": "overlay-chat",
+    "path": "/overlay/chat",
+    "component": "/Users/joe/xnet/pages/overlay/chat/index.vue",
+    "chunkName": "pages/overlay/chat/index",
+    "_name": "_a34c2750"
+  },
+  {
+    "name": "store-soldout",
+    "path": "/store/soldout",
+    "component": "/Users/joe/xnet/pages/store/soldout.vue",
+    "chunkName": "pages/store/soldout",
+    "_name": "_d605e944"
+  },
+  {
+    "name": "overlay-chat-id",
+    "path": "/overlay/chat/:id",
+    "component": "/Users/joe/xnet/pages/overlay/chat/_id.vue",
+    "chunkName": "pages/overlay/chat/_id",
+    "_name": "_68b1b680"
+  },
+  {
+    "name": "embed-id",
+    "path": "/embed/:id?",
+    "component": "/Users/joe/xnet/pages/embed/_id.vue",
+    "chunkName": "pages/embed/_id",
+    "_name": "_5568a716"
+  },
+  {
+    "name": "odysee-claimId",
+    "path": "/odysee/:claimId?",
+    "component": "/Users/joe/xnet/pages/odysee/_claimId.vue",
+    "chunkName": "pages/odysee/_claimId",
+    "_name": "_70589a6c"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/joe/xnet/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_70e4fc64"
+  },
+  {
+    "name": "watch",
+    "path": "/:watch",
+    "component": "/Users/joe/xnet/pages/_watch/index.vue",
+    "chunkName": "pages/_watch/index",
+    "_name": "_4b37389e"
+  },
+  {
+    "name": "watch-replay-replay",
+    "path": "/:watch/replay/:replay?",
+    "component": "/Users/joe/xnet/pages/_watch/replay/_replay.vue",
+    "chunkName": "pages/_watch/replay/_replay",
+    "_name": "_066175e2"
+  }
+]

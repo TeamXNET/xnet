@@ -1,0 +1,8 @@
+@import '../../../variables';
+
+.ContainerBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50rem;
+}

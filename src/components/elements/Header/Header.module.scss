@@ -1,0 +1,22 @@
+@import '../../../variables';
+
+.ContainerBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  padding: 1rem 1.5rem;
+}
+
+.LogoBlock, .AuthBlock {
+  width: 10rem;
+}
+
+.AuthBlock {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+
+  height: 1.6rem;
+}

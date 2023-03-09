@@ -10,7 +10,7 @@ Live streaming application that uses React, Redux, MongoDB, NodeJS, ExpressJS, J
 
 
   
-  [![github-follow](https://img.shields.io/github/followers/Prajwal100?label=Follow&logoColor=purple&style=social)](https://github.com/TeamXNET)
+  [![github-follow](https://img.shields.io/github/followers/TeamXNET?label=Follow&logoColor=purple&style=social)](https://github.com/TeamXNET)
   [![license](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
   
 

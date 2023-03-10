@@ -2,12 +2,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from "next/link"
 import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
 import React,{useEffect} from "react";
 import { useSpring, animated } from '@react-spring/web'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import Modal from 'react-modal';
-import { isAbsoluteUrl } from 'next/dist/shared/lib/utils';
+import { isAbsoluteUrl } from 'next/dist/shared/lib/utils’;
 
 const customStyles = {
   content: {
@@ -81,7 +80,7 @@ export default function Home() {
             }} 
             className="logo"
           >
-            <Image src="/xnet-logo.png" width="100" height="0" alt="" />
+            <Image src="/xnet-logo.png" width="94" height="37" alt="" />
           </animated.div>
           <animated.div style={{
               ...rightsprings,
@@ -117,7 +116,7 @@ export default function Home() {
           <animated.h1 style={{
               ...leftmoresprings,
             }}>Welcome to our streaming <br/>platform, built on the XRP Ledger</animated.h1>
-          <button onClick={openModal}>Enter <Image width="0" height="0" alt="" src="/xnet-logo-white.png"/></button>
+          <button onClick={openModal}>Enter XNet<Image width="0" height="0" alt="" src="/xnet-logo-white.png"/></button>
           </animated.div>
          
           <Modal
@@ -127,8 +126,16 @@ export default function Home() {
             style={customStyles}
             contentLabel="Example Modal"
           >
-            <div className="modal-popup">I am a modal</div>
-            <button onClick={closeModal}>close</button>
+            <div className="modal-popup">
+              <div className="modal-top">
+                <h2>Find content in</h2>
+              </div>
+              <Image src="/xnet-logo.png" width="94" height="37" alt="" />
+              <Image src="/under-construction.png" alt="underconstruction" height="167" width="142"></Image>
+              <p>The full XNET service is currently under construction, we<br/> will be publishing updates soon, stay tuned!</p>
+            <button onClick={closeModal}>Back</button>
+            </div>
+            
           </Modal>
         </ParallaxLayer>
       </div>
